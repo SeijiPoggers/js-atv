@@ -8,5 +8,5 @@ frm.addEventListener("submit", (e)=>{
     if(France>=24){
         France = France - 24
     }
-    resp1.innerHTML = `O horário na França é ${France.toFixed(2)}`
+    resp1.innerHTML = `O horário na França é ${France.toFixed(2)} horas`
 })
